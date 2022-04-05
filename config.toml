@@ -1,0 +1,66 @@
+baseUrl= "https://www.riptide-rhythm.com/"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Riptide Rhythm"
+theme = "anatole"
+contentDir = "content"
+publishDir = "docs"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+[params]
+title = "riptide rhythm"
+author = "austin riendeau"
+description = ""
+profilePicture = "images/winking-skull-color.png"
+keywords = ""
+favicon = "favicons/"
+customJs = [] 
+mainSections = ["posts"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+#singleDateFormat = "02/01/2006"
+#indexDateFormat = "02/01/2006"
+#listDateFormat = "02/01/2006"
+mainSectionsTitle = "posts"
+# Commento Comments
+# CommentoURL = "https://commento.example.com/js/commento.js"
+# Read More links for truncated summaries
+# readMore = true
+# postSectionName = "blog"
+# relatedPosts = true
+# numberOfRelatedPosts = 3
+
