@@ -62,4 +62,14 @@ mainSectionsTitle = "posts"
 # postSectionName = "blog"
 # relatedPosts = true
 # numberOfRelatedPosts = 3
+[[menu.main]]
+name = "home"
+identifier = "home"
+weight = 100
+url = "/"
 
+[[menu.main]]
+name = "posts"
+weight = 200
+identifier = "posts"
+url = "/posts/"
